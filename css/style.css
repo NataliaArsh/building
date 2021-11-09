@@ -532,10 +532,9 @@ img {
 /* Intro styles start*/
 
 .intro {
-    background: url(../img/intro_bg.jpg) no-repeat center;
-    background-size: cover;
+    min-height: 100vh;
+    background: url(../img/intro_bg.jpg) no-repeat center/cover;
     padding-top: 192px;
-    padding-bottom: 170px;
 }
 
 .intro__title {
@@ -752,8 +751,11 @@ img {
 } 
 
 .what__card-pic {
-    margin-bottom: 30px;
-    padding-top: 59px;
+    display: block;
+    margin: 0 auto;
+    padding: 59px 0 30px;
+    max-width: 60px;
+
 }
 
 .what__card-title {
