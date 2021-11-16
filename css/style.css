@@ -577,7 +577,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding: 57px 130px 57px 130px;
+    padding: 57px 130px;
 }
 
 .ach__card {
@@ -1014,13 +1014,63 @@ img {
     }  
 } */
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 992px) {
+    .intro {
+        padding-top: 200px;
+    }
+
+    .ach__cards {
+        padding: 57px 50px;
+    }
+
+    .large {
+        margin-bottom: 100px;
+    }
+
+    .large__cards {
+        gap: 15px;
+    }
+
     .or__block {
+        margin-bottom: 100px;
         height: 250px;
     }
 
     .or__block-question {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .what {
+        margin-bottom: 100px;
+    }
+
+    .what__cards {
+        gap: 20px;
+    }
+
+    .videos {
+        margin-bottom: 100px;
+    }
+
+    .questions {
+        margin-bottom: 100px;
+    }
+
+    .partners {
+        margin-bottom: 100px;
+    }
+    .partners__title {
+        padding-top: 70px;
+    }
+    .partners__pics {
+        padding-bottom: 80px;
+    }
+
+    .contacts {
+        margin-bottom: 100px;
+    }
+    .contacts__card-desk {
+        font-size: 22px;
     }
 }
 
@@ -1099,10 +1149,6 @@ img {
         line-height: 55px;
     }
 
-    .achievement {
-        margin-bottom: 100px;
-    }
-
     .ach__wrap {
         height: 350px;
     }
@@ -1124,10 +1170,6 @@ img {
     .ach__2 {
         font-size: 30px;
         line-height: 45px;
-    }
-
-    .large {
-        margin-bottom: 100px;
     }
 
     .large__cards {
@@ -1162,10 +1204,6 @@ img {
         line-height: 25px;
     }
 
-    .what {
-        margin-bottom: 100px;
-    }
-
     .what__card {
         grid-column: span 3;
     }
@@ -1181,14 +1219,6 @@ img {
         gap: 15px;
     }
 
-    .videos {
-        margin-bottom: 100px;
-    }
-
-    .questions {
-        margin-bottom: 100px;
-    }
-
     .or__block-question-title {
         padding-top: 20px;
     }
@@ -1196,10 +1226,6 @@ img {
     .questions__question-subtitle {
         font-size: 20px;
         line-height: 35px;
-    }
-
-    .partners {
-        margin-bottom: 100px;
     }
 
     .partners__title {
@@ -1230,10 +1256,6 @@ img {
 
     .reviews__cards-name {
         text-align: right;
-    }
-
-    .contacts {
-        margin-bottom: 100px;
     }
 
     .contacts__card {
